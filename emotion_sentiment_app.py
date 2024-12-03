@@ -10,7 +10,7 @@ import pandas as pd
 # Load the model
 @st.cache_resource
 def load_model():
-    return tf.keras.models.load_model('model/model_24112024_400.h5')
+    return tf.keras.models.load_model('model/model_03122024_400.h5')
 
 @st.cache_data
 def preprocess_audio(path):
